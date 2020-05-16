@@ -1,0 +1,100 @@
+body{
+    background: #51699e;
+    color:#FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:4px 16px 0px 15px;
+}
+
+    a{
+    background-color: #FFFFFF;
+    color:rgba(73,101,255,1) 92%;
+    padding: 5px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+  background-color: #fafafa;
+}
+
+hr{
+  border:2px solid #FFFFFF;
+}
+
+.introcenter{
+    text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.portfolio{
+  float:right;
+    color: rgba(73,101,255,1);
+  font-weight: bold;
+  font-size:19px;
+  text-decoration: none;
+}
+
+.portfolio2{
+  float:center;
+    color: rgba(73,101,255,1);
+  font-weight: bold;
+  font-size:19px;
+  text-decoration: none;
+}
+
+fieldset{
+  width:auto;
+  text-align: center;
+  margin:auto;
+  margin-left:25px;
+  margin-right:25px;
+  background: rgb(191,191,191);
+background: linear-gradient(6deg, rgba(191,191,191,1) 2%, rgba(255,255,255,1) 94%);
+}
+
+.weather_desc{
+  color: rgba(73,101,255,1);
+  font-weight: bold;
+  font-size:19px;
+}
+
+.instructions{
+  text-align:center;
+  font-weight: bold;
+  font-size:15px;
+}
+
+form{
+  padding-top:8px;
+}
+
+input.ghost-input{
+  margin-top: 5px;
+  color: rgba(73,101,255,1);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:20px;
+}
+
+input.ghost-button{
+  margin-top: 10px;
+  color: rgba(73,101,255,1);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:20px;
+}
+
+footer{
+  font-size:20px;
+  text-align: center;
+}
+
+.image-left{
+  float: left;
+}

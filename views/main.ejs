@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../public/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <title>Abhik's Little Weather app</title>
+</head>
+<body>
+<h1>     <img class="image-left" src="../public/img/logo-01.png" width=50px"> <img class="image-left" src="../public/img/logo-02.png" width=50px"> Little Weather app   <a class="portfolio" href="http://theabhik.com">by The Abhik.com</a></h1>
+    <hr>
+    <p>Say hello to my  little weather app. This is my first project on Node and I have some more coming
+      on the way.
+    </p>
+    <p class="instructions">Instructions: Type in your city or country in the searchbox, then simply tap "Get Weather"
+    </p>
+    <div class="container">
+        <fieldset>
+          <img src="../public/img/logo-01.png" width=50px>
+          <img src="../public/img/logo-02.png" width=50px>
+          <img src="../public/img/logo-03.png" width=50px>
+          <img src="../public/img/logo-04.png" width=50px>
+          <img src="../public/img/logo-05.png" width=50px>
+          <form action="/" method="post">
+            <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
+            <input type="submit" class="ghost-button" value="Get weather!">
+          </form>
+          <% if(weather !== null){ %>
+            <p class="weather_desc"><%= weather %></p>
+          <% } %>
+
+          <% if(error !== null){ %>
+            <p class="weather_desc"><%= error %></p>
+          <% } %>
+        </fieldset>
+      </div>
+      <hr>
+      <footer>
+        <p>Thanks for checking out my application! There is more to come as I am learning to work with a few more awesome APIS!</p>
+        <a class="portfolio2" href="http://theabhik.com">Back to portfolio</a></h1>
+      </footer>
+</body>
+</html>
